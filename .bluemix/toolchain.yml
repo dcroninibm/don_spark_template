@@ -46,6 +46,9 @@ jira:
    type: existing
    project_key: "ZOOKEEPER"
    api_url: "https://issues.apache.org/jira"
+   parameters:
+     type: 'advanced'
+     is_developer_insights_enabled: true
 
 
 # Pipelines
