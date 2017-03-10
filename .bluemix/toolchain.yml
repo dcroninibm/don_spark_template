@@ -11,6 +11,9 @@ required:
 insights:
   service_id: draservicebroker
   include: insights.yml
+ parameters:
+     type: 'advanced'
+     is_developer_insights_enabled: true
 
 
 # Github repos
