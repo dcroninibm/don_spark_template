@@ -23,8 +23,8 @@ github-repo-zookeeper:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "Zookeeper"
-    repo_url: "https://github.com/apache/zookeeper.git"
+    repo_name: "Spark"
+    repo_url: "https://github.com/apache/spark.git"
     type: link
     has_issues: true
   hidden: [form, description]
@@ -47,11 +47,8 @@ jira:
  service_id: jira
  parameters:
    type: existing
-   project_key: "ZOOKEEPER"
+   project_key: "SPARK"
    api_url: "https://issues.apache.org/jira"
-   parameters:
-     type: 'advanced'
-     is_developer_insights_enabled: true
 
 
 # Pipelines
